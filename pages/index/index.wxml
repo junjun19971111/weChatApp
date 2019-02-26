@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class='indexContainer'>
+    <view class='searchButton'><i class="fa fa-search" aria-hidden="true"></i> 搜索课程</view>
+    <image class='show' src='/images/1.jpg'></image>
+     <view class='styleButton'>
+        <view class='thisButton'>
+            <view class='thisImg'></view>
+            <view class='thisText'>微转业</view>
+        </view>
+        <view class='thisButton'>
+            <view class='thisImg'></view>
+            <view class='thisText'>职场提升</view>
+        </view>
+        <view class='thisButton'>
+            <view class='thisImg'></view>
+            <view class='thisText'>编程开发</view>
+        </view>
+        <view class='thisButton'>
+            <view class='thisImg'></view>
+            <view class='thisText'>人工智能</view>
+        </view>
+        <view class='thisButton'>
+            <view class='thisImg'></view>
+            <view class='thisText'>产品运营</view>
+        </view>
+        <view class='thisButton'>
+            <view class='thisImg'></view>
+            <view class='thisText'>设计创意</view>
+        </view>
+        <view class='thisButton'>
+            <view class='thisImg'></view>
+            <view class='thisText'>电子商务</view>
+        </view>
+        <view class='thisButton'>
+            <view class='thisImg'></view>
+            <view class='thisText'>VIP会员</view>
+        </view>
+
+
+        
+     </view>
+    <view class='hotClass'></view>
+</view>

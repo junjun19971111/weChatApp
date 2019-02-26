@@ -1,0 +1,52 @@
+/**index.wxss**/
+@import "/fontAwesome.wxss";
+.indexContainer{
+  display: flex;
+  flex-direction: column;
+}
+.searchButton{
+  width: 675rpx;
+  height: 70rpx;
+  border-radius: 35rpx;
+  background: #eee;
+  margin-left: 37.5rpx;
+  margin-bottom: 15rpx;
+  text-align: center;
+  line-height: 70rpx;
+  font-size: 29rpx;
+  color: #777;
+  
+}
+.show{
+  width: 750rpx;
+  height: 400rpx;
+}
+.styleButton{
+  width: 750rpx;
+  height: 400rpx;
+}
+.styleButton .thisButton{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 150rpx;
+  height: 180rpx;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+
+}
+.styleButton .thisButton .thisImg{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  margin-left: 35rpx;
+  background: red;
+}
+.styleButton .thisButton .thisText{
+  width: 150rpx;
+  height: 70rpx;
+  text-align: center;
+
+  font-size: 32rpx;
+  line-height: 70rpx;
+}
