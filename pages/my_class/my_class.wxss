@@ -1,0 +1,67 @@
+.myClass{
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+}
+.myClass .tab{
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  border-top: 1rpx solid #a3a3a3;
+  border-bottom: 1rpx solid #a3a3a3;
+}
+.myClass .tab .tab_class{
+  width: 375rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+.myClass .tabContent{
+  width: 750rpx;
+  background: #eee;
+  height: 1300rpx;
+}
+.myClass .tabContent .like_class{
+  width: 750rpx;
+  height: 260rpx;
+  border-bottom: 1rpx solid #a3a3a3;
+  background: #fff;
+  display: flex;
+}
+.myClass .tabContent .like_class .img{
+  width: 300rpx;
+  height: 260rpx;
+  margin-left: 30rpx;
+}
+.myClass .tabContent .like_class .img image{
+  width: 300rpx;
+  height: 200rpx;
+  margin-top:30rpx;
+  border-radius: 4rpx;
+}
+.myClass .tabContent .like_class .img_content{
+  width: 400rpx;
+  height: 260rpx;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+.myClass .tabContent .like_class .img_content .img_name{
+  width: 400rpx;
+  height: 130rpx;
+  line-height: 160rpx;
+  text-align: center;
+}
+.myClass .tabContent .like_class .img_content .img_start{
+  width: 400rpx;
+  height: 130rpx;
+}
+.myClass .tabContent .like_class .img_content .img_start button{
+  width: 200rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  background: #fff;
+  border: 2rpx solid #44B549;
+}

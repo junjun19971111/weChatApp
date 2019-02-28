@@ -1,0 +1,26 @@
+<!--logs.wxml-->
+<view class='myClass'>
+  <view class='tab'>
+    <view class='tab_class'>
+      我的课程
+    </view>
+    <view class='tab_class'>
+      我的作业
+    </view>
+  </view>
+  <view class='tabContent'>
+      <view class='like_class'>
+        <view class='img'>
+          <image src='/images/6.jpg'></image>
+        </view>
+        <view class='img_content'>
+          <view class='img_name'>
+            JavaScript之Vue.js
+          </view>
+          <view class='img_start'>
+            <button>开始学习</button>
+          </view>
+        </view>
+      </view>
+  </view>
+</view>

@@ -23,7 +23,8 @@
 }
 .styleButton{
   width: 750rpx;
-  height: 400rpx;
+  height: 390rpx;
+  background: white;
 }
 .styleButton .thisButton{
   display: flex;
@@ -32,15 +33,96 @@
   width: 150rpx;
   height: 180rpx;
   margin-left: 30rpx;
-  margin-top: 30rpx;
+  margin-top: 15rpx;
 
 }
-.styleButton .thisButton .thisImg{
+.styleButton .thisButton .thisImg_1{
   width: 90rpx;
   height: 90rpx;
   border-radius: 45rpx;
   margin-left: 35rpx;
-  background: red;
+  background:#ffb84f;
+  color: white;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+.styleButton .thisButton .thisImg_2{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  margin-left: 35rpx;
+  background: #7ba2ff;
+  color: white;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+.styleButton .thisButton .thisImg_3{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  margin-left: 35rpx;
+  background: #ea6f5a;
+  color: white;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+.styleButton .thisButton .thisImg_4{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  margin-left: 35rpx;
+  background:#f8855b;
+  color: white;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+.styleButton .thisButton .thisImg_5{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  margin-left: 35rpx;
+  background:#f69581;
+  color: white;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+.styleButton .thisButton .thisImg_6{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  margin-left: 35rpx;
+  background: #a94442;
+  color: white;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+.styleButton .thisButton .thisImg_7{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  margin-left: 35rpx;
+  background: #3c763d;
+  color: white;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+.styleButton .thisButton .thisImg_8{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  margin-left: 35rpx;
+  background: #545454;
+  color: white;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 35rpx;
 }
 .styleButton .thisButton .thisText{
   width: 150rpx;
@@ -49,4 +131,51 @@
 
   font-size: 32rpx;
   line-height: 70rpx;
+}
+.hotClass{
+  width: 750rpx;
+  height: 700rpx;
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+}
+.hotClass .tittle{
+  width: 750px;
+  height: 80rpx;
+  background: white;
+  margin-top: 30rpx;
+  line-height: 80rpx;
+  font-size: 34rpx;
+}
+.hotClass .tittle text{
+  margin-left: 40rpx;
+}
+
+.hotClass .classContent{
+  width: 750rpx;
+  height: 700rpx;
+  background: white;
+}
+.hotClass .classContent .hot{
+  float: left;
+  width: 340rpx;
+  height: 260rpx;
+  
+  margin-left: 25rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  
+}
+.hotClass .classContent .hot text{
+    font-size: 34rpx;
+}
+.hotClass .classContent .hot .hotImg{
+  width: 340rpx;
+  height: 200rpx;
+  background: red;
+}
+
+.hotClass .classContent .hot .hotImg image{
+  width: 340rpx;
+  height: 200rpx;
 }

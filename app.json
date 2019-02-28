@@ -1,12 +1,13 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/my_class/my_class",
+    "pages/info/info"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "小俊课堂",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }

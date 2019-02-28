@@ -1,0 +1,48 @@
+/* pages/info/info.wxss */
+@import "/fontAwesome.wxss";
+page{
+    background: #eee;
+}
+.main{
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+
+}
+.user_info{
+  width: 750rpx;
+  height: 140rpx;
+  display: flex;
+ background: #fff;
+}
+.user_info .img{
+  width: 200rpx;
+  height: 140rpx;
+}
+.user_info .img image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  margin-left: 20rpx;
+}
+.user_info .img_name{
+  width: 630rpx;
+  height: 140rpx;
+  line-height: 140rpx;
+}
+.user_item .icon{
+  width: 100rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  color: #555;
+}
+.user_item{
+  width: 750rpx;
+  height: 120rpx;
+  margin-top: 5rpx;
+  line-height: 120rpx;
+  font-size: 30rpx;
+  display: flex;
+  background: #fff;
+}

@@ -1,0 +1,26 @@
+<!--pages/info/info.wxml-->
+<view class='main'>
+  <view class='user_info'>
+    <view class='img'>
+      <image src='/images/user.jpg'></image>
+    </view>
+    <view class='img_name'>
+      华师吴俊祥
+    </view>
+  </view>
+  <view class='user_item'>
+      <view class='icon'><i class="fa fa-jpy" aria-hidden="true"></i></view>我的订单
+    </view>
+    <view class='user_item'>
+      <view class='icon'><i class="fa fa-shopping-bag" aria-hidden="true"></i></view>我的优惠券
+    </view>
+  <view class='user_item'>
+      <view class='icon'><i class="fa fa-shopping-cart" aria-hidden="true"></i></view>
+      我的购物车
+  </view>
+    <view class='user_item'>
+      <view class='icon'><i class="fa fa-credit-card" aria-hidden="true"></i></view>
+      我的学习卡
+  </view>
+  
+</view>
