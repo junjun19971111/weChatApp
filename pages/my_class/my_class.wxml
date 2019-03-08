@@ -18,7 +18,7 @@
             JavaScript之Vue.js
           </view>
           <view class='img_start'>
-            <button>开始学习</button>
+            <button bindtap='goToDetail'>开始学习</button>
           </view>
         </view>
       </view>

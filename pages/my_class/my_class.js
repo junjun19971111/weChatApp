@@ -11,5 +11,12 @@ Page({
         return util.formatTime(new Date(log))
       })
     })
+  },
+  goToDetail: function (e) {
+    if (e) {
+      wx.navigateTo({
+        url: '/pages/play/play'
+      })
+    }
   }
 })

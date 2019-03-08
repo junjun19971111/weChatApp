@@ -1,0 +1,110 @@
+/* pages/play/play.wxss */
+@import "/fontAwesome.wxss";
+.play_main{
+  width: 750rpx;
+  height: 1300rpx;
+}
+.play_main .play_video{
+  width: 750rpx;
+  height: 450rpx;
+}
+.play_main .play_video video{
+  width: 750rpx;
+  height: 450rpx;
+}
+.play_main .tab{
+  width: 750rpx;
+  height: 90rpx;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+.play_main .tab .tab_sw{
+  width: 275rpx;
+  height: 90rpx;
+  margin-left: 60rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background: white;
+  font-size: 33rpx;
+}
+.selected{
+    border-bottom: 1px solid #1aad19;
+    color:  #1aad19;
+}
+.introduce{
+  width: 750rpx;
+  height: 500rpx;
+}
+.introduce .tittle{
+  width: 700rpx;
+  margin-left: 50rpx;
+  height: 70rpx;
+  font-size: 33rpx;
+  margin-top:30rpx;
+ 
+
+}
+.introduce .content{
+    width: 700rpx;
+   margin-left: 50rpx;
+   height: 450rpx;
+   font-size: 31rpx;
+   line-height: 70rpx;
+}
+.list{
+  width: 750rpx;
+  height: 700rpx;
+}
+.list .tittle{
+   width: 700rpx;
+  margin-left: 50rpx;
+  height: 70rpx;
+  font-size: 33rpx;
+  margin-top:30rpx;
+}
+.list .content{
+  width: 700rpx;
+   margin-left: 50rpx;
+   height: 450rpx;
+   
+}
+.list .content .list_class{
+  width: 700rpx;
+  margin-top: 10rpx;
+  height: 70rpx;
+  font-size: 32rpx;
+  border-bottom: 1px solid #eee;
+  line-height: 70rpx;
+}
+.active{
+  color:  #1aad19;
+}
+.sumbit{
+  width: 750rpx;
+  height: 120rpx;
+  position: fixed;
+  bottom: 0rpx;
+  display: flex;
+  background: #eee;
+  align-items: center;
+}
+.sumbit .add{
+  width: 200rpx;
+  height: 120rpx;
+  margin-left: 50rpx;
+}
+.sumbit .add text{
+  line-height: 120rpx;
+  font-size: 30rpx;
+}
+.sumbit .more{
+  width: 300rpx;
+  height: 80rpx;
+  border-radius: 2px;
+  color: white;
+  background: #1aad19;
+  margin-left: 100rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 34rpx;
+}

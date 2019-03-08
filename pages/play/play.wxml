@@ -1,0 +1,35 @@
+<!--pages/play/play.wxml-->
+<view class='play_main'>
+    <view class='play_video'>
+        <video src='/videos/1.mp4' object-fit='cover' enable-play-gesture></video>
+    </view>
+    <view class='tab'>
+        <view class='tab_sw {{isoff?"selected":""}}' catchtap="change_tab">简介</view>
+        <view class='tab_sw {{isoff?"":"selected"}}' catchtap="change_it">目录</view>
+    </view>
+    <view style='display:{{isoff?"block": "none"}}' class='introduce'>
+      <view class='tittle'> 课程介绍</view>
+      <view class='content'>本阶段综合讲解ES6的基础知识，包括 ES6的let、const、解构赋值、ES6的新扩展、Promise异步、以及Babel工具，最后综合一个ES6的案例对这些知识进行串联综合运用，达到学以致用。</view>
+       
+    </view>
+    <view style='display:{{isoff?"none": "block"}}' class='list'>
+      <view class='tittle'> 课程目录</view>
+      <view class='content'>
+          <view class='list_class active'>第一节：ES6的简单介绍</view>
+          <view class='list_class '>第二节：ES6的简单基础</view>
+          <view class='list_class '>第三节：ES6的新增功能</view>
+          <view class='list_class '>第四节：块的作用域</view>
+          <view class='list_class '>第四节：恒量</view>
+      </view>
+       
+    
+    </view>
+    <view class='sumbit'>
+        <view class='add'>
+          <i class="fa fa-cart-plus" aria-hidden="true"></i>
+          <text>  加入购物车</text>
+        
+        </view>
+        <view class='more'>加入学习</view>
+    </view>
+</view>

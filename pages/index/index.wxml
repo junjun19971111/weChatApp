@@ -1,7 +1,16 @@
 <!--index.wxml-->
 <view class='indexContainer'>
     <view class='searchButton'><i class="fa fa-search" aria-hidden="true"></i> 搜索课程</view>
-    <image class='show' src='/images/1.jpg'></image>
+    <view class='show' bindtap='goToDetail'>
+      <swiper indicator-dots indicator-active-color="white" indicator-color="##8d8d8d">
+        <swiper-item><image src='/images/a.jpg'></image></swiper-item>
+        <swiper-item><image src='/images/b.jpg'></image></swiper-item>
+        <swiper-item><image src='/images/c.jpg'></image></swiper-item>
+        <swiper-item><image src='/images/d.jpg'></image></swiper-item>
+        <swiper-item><image src='/images/e.png'></image></swiper-item>
+        
+      </swiper>
+    </view>
      <view class='styleButton'>
         <view class='thisButton'>
             <view class='thisImg_1'>微</view>
@@ -45,25 +54,25 @@
       
       </view>
       <view class='classContent'>
-        <view class='hot'>
+        <view class='hot'bindtap='goToDetail'>
             <view class='hotImg'>
             <image src='/images/2.jpg'></image>
             </view>
             <text>商业思维</text>
         </view>
-        <view class='hot'>
+        <view class='hot' bindtap='goToDetail'>
             <view class='hotImg'>
             <image src='/images/3.png'></image>
             </view>
             <text>背记单词</text>
         </view>
-              <view class='hot'>
+              <view class='hot' bindtap='goToDetail'>
             <view class='hotImg'>
             <image src='/images/4.png'></image>
             </view>
             <text>思维入门</text>
         </view>
-         <view class='hot'>
+         <view class='hot' bindtap='goToDetail'>
             <view class='hotImg'>
             <image src='/images/5.png'></image>
             </view>

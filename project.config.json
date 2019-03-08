@@ -42,7 +42,7 @@
 				{
 					"id": 0,
 					"name": "11",
-					"pathName": "pages/my_class/my_class",
+					"pathName": "pages/index/index",
 					"query": "",
 					"scene": null
 				},
@@ -50,6 +50,13 @@
 					"id": 1,
 					"name": "info",
 					"pathName": "pages/info/info",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "11",
+					"pathName": "pages/play/play",
 					"query": "",
 					"scene": null
 				}

@@ -29,6 +29,15 @@ page{
   width: 630rpx;
   height: 140rpx;
   line-height: 140rpx;
+  margin-left: 60rpx;
+}
+.user_info button{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  margin-left: 20rpx;
+  line-height: 120rpx;
+  font-size: 25rpx;
 }
 .user_item .icon{
   width: 100rpx;

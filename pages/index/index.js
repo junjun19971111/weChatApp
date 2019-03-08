@@ -50,5 +50,12 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  goToDetail:function(e){
+    if (e) {
+      wx.navigateTo({
+        url: '/pages/play/play'
+      })
+    }
   }
 })

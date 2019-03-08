@@ -21,6 +21,14 @@
   width: 750rpx;
   height: 400rpx;
 }
+.show swiper{
+  height: 400rpx;
+
+}
+.show image{
+  width: 750rpx;
+  height: 400rpx;
+}
 .styleButton{
   width: 750rpx;
   height: 390rpx;

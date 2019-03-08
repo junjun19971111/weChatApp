@@ -1,18 +1,19 @@
 <!--pages/info/info.wxml-->
 <view class='main'>
   <view class='user_info'>
-    <view class='img'>
-      <image src='/images/user.jpg'></image>
+    <view style='display:{{isLogin?"block": "none"}}' class='img'>
+      <image src='{{useInfo.avatarUrl}}'></image>
     </view>
+    <button bindgetuserinfo='handleGetUserInfo' style='display:{{isLogin?"none": "block"}}' open-type='getUserInfo'>登录</button>
     <view class='img_name'>
-      华师吴俊祥
+      {{useInfo.nickName?useInfo.nickName:"未登录"}}
     </view>
   </view>
   <view class='user_item'>
       <view class='icon'><i class="fa fa-jpy" aria-hidden="true"></i></view>我的订单
     </view>
-    <view class='user_item'>
-      <view class='icon'><i class="fa fa-shopping-bag" aria-hidden="true"></i></view>我的优惠券
+    <view class='user_item' bindtap="tapName">
+      <view class='icon'><i class="fa fa-heart" aria-hidden="true"></i></view >我的课程
     </view>
   <view class='user_item'>
       <view class='icon'><i class="fa fa-shopping-cart" aria-hidden="true"></i></view>
